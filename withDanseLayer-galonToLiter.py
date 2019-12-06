@@ -30,4 +30,3 @@ plt.show()
 answer = model.predict([83.23])
 # liter = galon/0,26417 --- (83.23 galon = 315.0598)
 print(answer)
-#coded by parzival#
