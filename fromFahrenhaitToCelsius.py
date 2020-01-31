@@ -6,9 +6,6 @@ import matplotlib.pyplot as plt
 celsius = np.array([-40, -10,  0,  8, 15, 22,  38] , dtype=float)
 fahrenheit = np.array([-40,  14, 32, 46, 59, 72, 100] , dtype=float)
 
-for i,c in enumerate(celsius): # enumerate i : index degerini tutuyor , c = sırayla değerleri alıyor.
-    print("{} degrees Celsius = {} degrees Fahrenheit".format(c, fahrenheit[i]))
-
 l0 = tf.keras.layers.Dense(units=1, input_shape=[1]) # units = katman sayısı   input_sahape = girdi sayısı
 model = tf.keras.Sequential([l0])  # model için bir session actık
 
