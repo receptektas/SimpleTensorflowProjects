@@ -10,7 +10,7 @@ l0 = tf.keras.layers.Dense(units=1, input_shape=[1]) # units = katman sayısı  
 model = tf.keras.Sequential([l0])  # model için bir session actık
 
 model.compile(loss='mean_squared_error',  # loss kayıp fonk. kaybımızı hesaplamanın yolu hazır bır tane kullandık
-              optimizer=tf.keras.optimizers.Adam(0.1))  # optimizer : ksybı azaltmak için değerleri ayarlamanın yolu yine hazır kullandık
+              optimizer=tf.keras.optimizers.Adam(0.1))  # optimizer : kaybı azaltmak için değerleri ayarlamanın yolu yine hazır kullandık
                                                         # 0.1 atılan adım buyuklugu
                                                         # Sayısal Analiz kullanan Gradient Descent adlı bir optimizasyon işlemi ile gerçekleştirilir.
 
